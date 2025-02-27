@@ -17,3 +17,6 @@ div.background {
 span {
     font-weight: bold;
 }
+select {
+    padding: 4px;
+}

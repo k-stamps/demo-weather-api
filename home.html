@@ -16,6 +16,17 @@
             <h2>Simple Weather App</h2>
             Real-time weather data from the U.S. Weather Service: 
             <br /><br />
+
+            <label for="city-select">City:</label>
+
+            <select name="city" id="city-select">
+              <option value="" class="default">--Select a city--</option>
+              <option value="New York">New York</option>
+              <option value="Chicago">Chicago</option>
+              <option value="Los Angeles">Los Angeles</option>
+            </select>
+
+            <br /><br />
             In <span id="city">[City]</span>, the current weather forecast <span id="periodName">[Period Name]</span> is <span id="periodForecast">[Period Forecast]</span>
             <br />
             <br />
@@ -26,6 +37,6 @@
             </div>
         </article>
     </main>
-    <script src="index.js"></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
